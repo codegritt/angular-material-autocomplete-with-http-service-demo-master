@@ -13,10 +13,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SpecialEventsComponent } from './special-events/special-events.component';
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, SpecialEventsComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
